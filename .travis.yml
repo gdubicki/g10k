@@ -6,3 +6,11 @@ go:
 notifications:
   email:
     - grzegorz.dubicki@gmail.com
+
+deploy:
+  provider: releases
+  api_key:
+    secure: GXqpNMu2/QSOsC7OkBtsm9LRrc3GlfymCdfs+lA5mfjHYGzKr5YXhqY8BCdBEbu0DxCfhpiYmpguQnWkx4DuyhnfGlis+CyLdsNiV6H9+q8SufqLzHKaB3PpfT6Q1/SWVTG6rXCxycDzFFC/RLizOw2z3f0THia1B5z0YOPHfKxoUXTzVDT24lTnyc1eNZJ/ExVPtXqQXzUqcvhfydrJrcH+s4fVKY9amUIO228mGc3t3uTKUv5VchCCWoFrVHD/jnbZ5IhuByXsWHnkljXeEa3fmq3GO2wf5Az4Pq/+/7/k6gIvtKDjr7EEU6/+GAZc/rX1d8O3AJhQCfwTqW5D7kEZYK2R5ckhQCAoAtFEcx75j6dcy+rMVZ9eQUVo+r/EnRhA/MyZYuFmMebQ1W6rsgkbH81bAjl3TKzavMAJ0c0Ty2dVw/GAkqid0pSEJk2+Fls+L0bzejrwBDoJmYQv9RCddjb/qSCePHuKeH0yslZDUh126bFMCmA6jhB+5oVuQL2NaFaxF/wMY1TTohBVr/VvH8FNB+1p7Z3cp1hdBk+868+/Rd826xrF1SouNfaRcnCLphuMim41qiLrO0faFDmCWqU+ns1oewxHiiCwkvZA0vVzKKxyfsS71QqlQCpiC0aprKZEMvjGG7EzCyTpOxzRvx48IvOOtuvY/DV2Ewo=
+  file: g10k
+  on:
+    repo: gdubicki/g10k
